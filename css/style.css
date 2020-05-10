@@ -2,9 +2,21 @@ body, html {
   height: 100%;
 }
 
-.bg {
+.bg-index {
   /* The image used */
   background-image: url("../assets/matthew-moisant-sIPRbIj9Oo8-unsplash.jpg");
+  opacity: 1;
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-about {
+  /* The image used */
+  background-image: url("../assets/scott-goodwill-GS-TyZ7y2nY-unsplash.jpg");
   opacity: 1;
   /* Full height */
   height: 100%;
@@ -31,6 +43,10 @@ body, html {
 .nav-link {
   font-family: cursive;
   color: white !important;
+}
+
+.navbar-toggler {
+  border-color: white;
 }
 
 .vertical-center {
